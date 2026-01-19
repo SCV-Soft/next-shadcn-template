@@ -1,5 +1,6 @@
 import js from "@eslint/js"
 import eslintConfigPrettier from "eslint-config-prettier"
+import eslintPluginPrettierRecommended from "eslint-plugin-prettier/recommended"
 import pluginReact from "eslint-plugin-react"
 import pluginReactHooks from "eslint-plugin-react-hooks"
 import globals from "globals"
@@ -38,4 +39,5 @@ export const config = [
       "react/prop-types": "off",
     },
   },
+  eslintPluginPrettierRecommended,
 ]
